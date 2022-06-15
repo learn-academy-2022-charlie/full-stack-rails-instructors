@@ -3,7 +3,7 @@
 <ul>
   <% @herbs.each do |herb| %>
     <li>
-      <%= herb.name %>
+      <%= link_to herb.name, herb_path(herb) %>
     </li>
   <% end %>
 </ul>
