@@ -8,4 +8,8 @@ class HerbController < ApplicationController
     @herb = Herb.find(params[:id])
   end
 
+  def new
+    @herb = Herb.new
+  end
+
 end
