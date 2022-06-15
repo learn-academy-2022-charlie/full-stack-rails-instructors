@@ -13,3 +13,13 @@
 - controller
 - route
 - view
+
+### New
+- controller
+- route
+- view
+
+### Create
+- controller - strong params, private
+- route
+- view - redirects
