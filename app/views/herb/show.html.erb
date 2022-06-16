@@ -4,3 +4,7 @@
 <p>Watered: <%= @herb.watered %></p>
 
 <p><%= link_to 'Back Home', herbs_path %></p>
+
+<p>
+  <%= button_to 'Delete Herb', delete_herb_path(@herb), method: :delete, form: { data: { 'turbo-confirm': 'Are you sure?' } } %>
+</p>
