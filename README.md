@@ -23,3 +23,8 @@
 - controller - strong params, private
 - route
 - view - redirects
+
+### Destroy
+- controller
+- route
+- view - button
